@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow: scroll;
+
+}
+
+/* it is Navbar Section */
+.container {
+    display: flex;
+    max-height: 21%;
+    position: sticky;
+
+    top: 0;
+}
+
+.container::before {
+    opacity: 0.92;
+    content: "";
+    background-image:linear-gradient(rgba(27, 25, 25, 0.979),black,rgba(23, 21, 22, 0.968),rgb(18, 18, 15));
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    z-index: -1;
+}
+
+.right-item {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 15px;
+    top: 32px;
+    margin-right: 60px;
+}
+
+.right-subitem {
+    margin: 0px 15px;
+    padding: 1px 4px;
+}
+
+.login {
+    background: red;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 30px;
+}
+
+#logo img {
+    margin: 4px 4px;
+    align-items: center;
+    height: 100px;
+    width: 195px;
+    border-radius: 50px;
+}
+
+/* It is home Section */
+.home-section {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    border-bottom: 20px solid rgba(0, 0, 0, 0.95);
+}
+
+.home-section::before {
+    top: 0;
+    content: "";
+    position: absolute;
+    background: url('/img/Netflix-background-img.jpg') no-repeat;
+    height: 108vh;
+    width: 100vw;
+    opacity: 0.93;
+    z-index: -1;
+}
+
+.h-primary {
+    text-align: center;
+    font-size: 3.2rem;
+    max-width: 56%;
+    margin: 0px 19px;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+.login-form {
+    margin: 23px;
+    padding: 4px 4px;
+    text-align: center;
+}
+
+.B-para {
+    margin: 0px 5px;
+    padding: 0px 6px;
+    font-size: 2.4rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.S-para {
+    margin: 0px 5px;
+    padding: 5px 6px;
+    font-size: 1.6rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.form {
+    margin: 0px 5px;
+    padding: 3px 3px;
+    font-weight: bold;
+}
+
+.input {
+    font-size: 1.1rem;
+    margin: 4px 0px;
+    padding: 15px 150px;
+
+}
+
+.btn {
+    font-size: 1.1rem;
+    margin: 4px 0px;
+    padding: 15px 40px;
+    font-weight: bold;
+    box-sizing: border-box;
+    background: red;
+    color: white;
+}
+
+/* It is Tv Section */
+
+.advertisement {
+    position: relative;
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.968),black, rgba(0, 0, 0, 0.996), rgba(0, 0, 0, 0.956));
+    display: flex;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 40px solid black;
+
+}
+
+.inner-ad {
+    display: flex;
+    align-items: center;
+    margin: 0px 150px;
+
+
+}
+
+.h {
+    font-size: 3.2rem;
+}
+
+.item {
+    margin: 52px;
+    text-shadow: 5px 3px black;
+}
+
+.para-d {
+
+    text-align: center;
+    /* justify-content: center; */
+    margin: 8px 2px;
+    padding: 4px 4px;
+}
+
+.card{
+    box-sizing: border-box;
+    height: 400px;
+    width: 550px;
+    margin-right: 53px;
+}
+.Tv-img {
+    display: inline-block;
+    position: absolute;
+    margin-right: 30px;
+    background: t;
+
+
+    
+     box-shadow: 15px 15px 8px black; 
+    height:398px;
+    width: 490px;
+    z-index: 1;
+
+}
+.video{
+    display: inline-block;
+    right: 40px;
+    top:150px;
+    padding: 92px;
+     background: transparent;
+    height:300px ;
+    width:400px ;
+    
+
+}
+
+/* It is Mobile section */
+
+.download-section {
+    box-sizing: border-box;
+
+    position: relative;
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.892), rgba(0, 0, 0, 0.891), black,black);
+    display: flex;
+    color: white;
+    width: 100vw;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 40px solid black;
+    
+    
+}
+ 
+.download{
+    display: flex;
+    align-items: center;
+    margin: 0px 150px;
+    
+}
+
+.downsection{
+    margin: 60px;
+    text-shadow: 3px 3px black;
+}
+.items{
+    margin: 30px;
+}
+.mob-img {
+    border-radius: 6px;
+    box-shadow: 8px 6px 6px black;
+    height: 420px;
+    width: 330px;
+}
+
+/* It is kids section */
+
+.kids-section{
+    position: relative;
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.972), rgba(0, 0, 0, 0.891), rgba(0, 0, 0, 0.873));
+    display: flex;
+    color: white;
+    width: 100vw;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 40px solid black;
+}
+
+.all-item{
+    display: flex;
+    align-items: center;
+    margin: 0px 150px;
+}
+
+/* It is footer side */
+
+.footer-note{
+    color: white;
+    font-size: 1.7rem;
+    width: 100vw;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.911);
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
